@@ -5,8 +5,8 @@ struct Vector{
 struct Ball{
 	double t;
 	Vector p, v;
-	static double r;
+	constexpr static double r = 10;
 	int x, y;
-	static double g;
+	constexpr static double g = 100;
 	Ball();
 };
